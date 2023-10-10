@@ -1,0 +1,27 @@
+{
+  "name": "email_integration",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "NODE_OPTIONS='--experimental-specifier-resolution=node' NODE_ENV=dev nodemon app.js",
+    "debug": "nodemon --inspect=0.0.0.0:9231 -L app.js",
+    "test": "mocha ./**/*.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "twilio": "^4.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.3"
+  },
+  "author": "Team Raja",
+  "license": "ISC"
+}
