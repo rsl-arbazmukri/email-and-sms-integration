@@ -204,4 +204,4 @@ client.messages
   .catch(error => console.error('Error:', error));
 ```
 
-[END]
+This code/software is NOT licensed and is not open for use/change/distribution. Please open an issue / pull-request if you require the same.
