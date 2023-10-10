@@ -1,7 +1,5 @@
 # Setup Email and SMS Communication With NodeJS
 
-If you want to choose email / sms service for your project, you can visit [detailed document of email / sms](https://docs.google.com/document/d/1ZnpLGSBpiMFe3USiAA4Cd4t8Dhxyck636nxRXWc-1UA/edit) services, where all the details are available.
-
 ## Email
 
 ### Prerequisites
